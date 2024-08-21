@@ -7,12 +7,12 @@
 
 /* Body styling */
 body {
-    background-color: lightblue;
-    font-family: monospace;
+    background-color: limegreen;
+    font-family: initial;
 }
 
 h1{
-    color: indianred;
+    color: paleturquoise;
 }
 
 /* Navbar styling */
@@ -74,4 +74,28 @@ h1{
 
 .nav-links a:hover::after {
     width: 100%;
+}
+
+/*hero section*/
+.hero-section{
+    background: url('images/hero-image.jpg')no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 450px;
+}
+
+.hero-content h1{
+    font-size: 4em;
+    margin-bottom: 25px;
+}
+
+.hero-content h3{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.btn-primary{
+    background-color: deepskyblue;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
